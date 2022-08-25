@@ -1,0 +1,188 @@
+#title{
+    background-color:#ff4c68;
+ 
+
+}
+
+.container-fluid{
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+}
+
+.title-c{
+    padding-bottom: 7%;
+}
+
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+p{
+    color: #8f8f8f;
+    
+}
+
+
+
+/* navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-style: "Montserrat-light";
+}
+
+/* download buttons */
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+    width: 60%;
+    position: absolute; 
+    right: 20%;
+     transform: rotate(25deg); 
+
+
+}
+
+.image-padding{
+    padding-bottom: 6rem;
+    position: relative;
+}
+
+
+
+#features{
+    padding:7% 15% ;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* testimonial */
+
+#testimonials{
+  
+    background-color:#ef8172 ;
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial-image{
+    width:15%;
+       border-radius: 100%;   /*for making image round */
+  margin: 15px;
+}
+
+#press{
+    background-color:#ef8172 ;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo{
+    width:15%;
+    margin: 25px 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding:4% 3%;
+}
+
+@media (max-width:1000px) {
+
+    .title-image{
+        position: static;
+        transform: rotate(0 );
+    }
+    h1{
+        text-align: center;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+/* cta */
+
+#cta{
+    background-color:#ff4c68 ;
+    
+    text-align: center;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 3% 15%;
+}
+
+.footer-link{
+    margin-left:4px;
+    margin-bottom: 20px;
+    margin-right: 4px;
+}
